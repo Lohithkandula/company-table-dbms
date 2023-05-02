@@ -1,0 +1,9 @@
+BEGIN;
+INSERT INTO `EMPLOYEE` VALUES ("Manisha"," ","Velaga","999","05-
+11-03","204-wallstreet","M","60000","6789","4");
+COMMIT; select * from
+EMPLOYEE;
+BEGIN;
+INSERT INTO `DEPARTMENT` VALUES ("Public relations","4","999","0508-22");
+COMMIT;
+SELECT * FROM DEPARTMENT;
